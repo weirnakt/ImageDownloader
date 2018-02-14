@@ -1,0 +1,22 @@
+syntax: regexp
+/target/
+/node_modules/
+.*overlays.*
+^makefile$
+^config.make_$
+^pwd$
+\.metadata
+\.idea
+.*\.ipr$
+.*\.iws$
+\.sonar-ide\.properties
+.*\.classpath$
+.*\.settings.*
+.*\.project$
+.*~$
+.*\.orig$
+.*\.iml$
+.*\.pyc$
+.*\.pyo$
+/ts/.*(.js|.js.map)$
+\.mvn/timing.properties$
