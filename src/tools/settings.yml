@@ -1,0 +1,22 @@
+# путь к логу (обязательная настройка)
+swarmlog: 'swarm.log'
+# настройки запуска
+swarm:
+  http:
+    port: 8085
+swarm:
+  management:
+    http:
+      disable: true
+swarm:
+  management:
+    http:
+      port: 9997
+proxy:
+  setting:
+    path: 'd:\Uploader\proxy.yml'
+test:
+  content: 'd:\Uploader\content.html'
+root:
+  download:
+    directory: 'd:\Uploader'
