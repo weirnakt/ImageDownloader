@@ -58,8 +58,6 @@ public class SanHtmlParser extends HtmlParser {
                 return;
             }
             Document imageDocument = Jsoup.parse(new String(imageContent, "utf-8"));
-            /*Document imageDocument = Jsoup.parse(FileUtils
-                    .readFileToString(new File("d:\\webConsolidation\\Uploader\\index2.html"), "utf-8"));*/
             Element tagsElement = imageDocument.selectFirst("ul[id=tag-list]");
             Elements tagsElements = tagsElement.select("li[class]");
             List<String> tags = new ArrayList<>(tagsElements.size());
