@@ -81,7 +81,7 @@ public final class DownloadHelper {
             HttpsURLConnection.setDefaultHostnameVerifier((string, ssls) -> true);
             /*CredentialsProvider credsProvider = new BasicCredentialsProvider();
             credsProvider.setCredentials(new AuthScope(downloadInfo.getProxyAddress(), downloadInfo.getProxyPort()),
-                    new UsernamePasswordCredentials("volkovra", "KOROvium890"));*/
+                    new UsernamePasswordCredentials("login", "pass"));*/
             return HttpClients.custom()
                     .setSSLSocketFactory(sslConnectionSocketFactory)
                     .setDefaultRequestConfig(config)
